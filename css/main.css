@@ -5,8 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 
 html {
-    background-color: #1F1D36
-;
+    background-color: #1F1D36;
     font-family: 'Libre Baskerville', serif;
     font-size: 0.95em;
     line-height: 1.5em;
@@ -59,6 +58,22 @@ footer {
     text-align: center;
     padding: 1em;
 }
+
+/* Positioning styles start here */
+
+.text-align-center{
+    text-align: center;
+    background-color:aqua;
+}
+
+.margin-auto > div {
+    text-align: center;
+    margin:auto;
+    width:50%;
+    background-color:beige;
+}
+
+/* Positioning styles end here */
 
 /* Responsive rules */
 
