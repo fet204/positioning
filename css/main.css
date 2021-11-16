@@ -153,6 +153,15 @@ img.flexible{
 .center-img img{
     text-align: center;
 }
+
+.flexible img {
+    width: 100;
+}
+
+.flexible {
+    display: flex;
+    justify-content: space-evenly;
+}
 /* flexible image ruels ends here */
 
 
